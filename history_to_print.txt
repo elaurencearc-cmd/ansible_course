@@ -1,0 +1,431 @@
+    1  ssh 192.168.1.126
+    2  ssh-keygen
+    3  ls ~/.ssh
+    4  cat ~/.ssh/ansible.pub
+    5  cat ~/.ssh/ansible
+    6  ssh - v
+    7  ssh -V
+    8  nano inventory
+    9  cat inventory
+   10  ssh-copy-id -i ~/.ssh/ansible 192.168.1.126
+   11  ssh 192.168.1.126
+   12  ssh-copy-id -i ~/.ssh/ansible 192.168.1.126
+   13  ssh 192.168.1.126
+   14  eval $(ssh-agent)
+   15  ssh-add ~/.ssh/ansible
+   16  cat ~/.ssh/ansible
+   17  cat ~/.ssh
+   18  cat ~/.ssh/
+   19  ls ~/.shh
+   20  ls ~/.ssh
+   21  ssh 192.168.1.126
+   22  exit
+   23  ssh 192.168.1.126
+   24  ls ~/.ssh
+   25  cat ~/.ssh/
+   26  eval $(ssh-agent)
+   27  ssh-add ~/.ssh/ansible
+   28  ssh 192.168.1.126
+   29  ansible all -m
+   30  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+   31  ansible all -m
+   32  ssh 192.168.1.126
+   33  eval $(ssh-agent)
+   34  ssh-add ~/.ssh/ansible
+   35  ssh 192.168.1.126
+   36  cat inventory
+   37  nano ansible.cfg
+   38  ansible all -m ping
+   39  ansible all --list-hosts
+   40  ansible all -m gathered_facts
+   41  ansible all -m gather_facts
+   42  exit
+   43  ssh 192.168.1.126
+   44  ssh 192.168.1.126
+   45  ls ~/.ssh
+   46  eval $(ssh-agent)
+   47  ssh-copy-id -i ~/.ssh/ansible 192.168.1.126
+   48  eval $(ssh-agent)
+   49  ssh-add ~/.ssh/ansible
+   50  ssh 192.168.1.126
+   51  ssh 192.168.1.126
+   52  ls ~/.ssh
+   53  eval $(ssh-agent)
+   54  cat ~/.ssh/ansible
+   55  eval $(ssh-agent)
+   56  ssh-add ~/.ssh/ansible
+   57  ssh 192.168.1.126
+   58  ansible all
+   59  cat inventory
+   60  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+   61  command -v ansible
+   62  nao ansible.cfg
+   63  nano ansible.cfg
+   64  ssh 192.168.1.126
+   65  eval $(ssh-agent)
+   66  ssh-add ~/.ssh/ansible
+   67  eval $(ssh-agent)
+   68  ssh-add ~/.ssh/ansible
+   69  cat inventory
+   70  nano ansible.cfg
+   71  ip a
+   72  ip route show
+   73  ip r s
+   74  ip a
+   75  ip r s
+   76  udo nano /etc/netplan/00-installer-config.yaml
+   77  sudo nano /etc/netplan/00-installer-config.yaml
+   78  cd /etc/netplan/
+   79  ls
+   80  cat 00-installer-config.yaml 
+   81  sudo cat 00-installer-config.yaml 
+   82  ls
+   83  sudo nano 00-installer-config.yaml
+   84  pwd
+   85  cat 00-installer-config.yaml
+   86  sudo cat 00-installer-config.yaml
+   87  sudo netplan try
+   88  cat ansible.cfg
+   89  ansible all --list-hosts
+   90  eval $(ssh-agent)
+   91  ssh-add ~/.ssh/ansible
+   92  ssh 192.168.1.126
+   93  ansiblwe all --list-host
+   94  ansiblwe all --list-hosts
+   95  ansible all --list-hosts
+   96  ansible all -m gather_facts
+   97  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+   98  ansible all -m ping
+   99  eval $(ssh-agent)
+  100  ssh-add ~/.ssh/ansible
+  101  ssh 192.168.1.126
+  102  ansible all 
+  103  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  104  ansible all --key-file -m ping
+  105  ansible all -m ping
+  106  cd /etc/netplan
+  107  ls
+  108  sudo cat 00-installer-config.yaml 
+  109  sudo netplan apply
+  110  ssh 192.168.1.126
+  111  ip ad
+  112  ip r s
+  113  ansible all 
+  114  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  115  ansible all -m ping
+  116  ansible all gather_facts
+  117  ansible all -m gather_facts
+  118  sudo cat 00-installer-config.yaml
+  119  pwd
+  120  cd /etc/neplan
+  121  cd /etc/netplan
+  122  ls
+  123  sudo nano 00-installer-config.yaml 
+  124  ls
+  125  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  126  cd /home/laurencee
+  127  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  128  ip ad
+  129  sudo nano inventory
+  130  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  131  commando -v ansible
+  132  ssh 192.168.1.127
+  133  commando -v ansible
+  134  command -v ansible
+  135  cat ~/.ssh/ansible
+  136  ls cat~/.ssh/ansible
+  137  cat ~/.ssh/ansible
+  138  cd ~/.ssh/ansible
+  139  ls ~/.ssh/ansible
+  140  pwd
+  141  cd /ssh/ansible
+  142  ls ~/.ssh
+  143  eval $(ssh-agent)
+  144  ssh-add ~/.ssh/ansible
+  145  ssh 192.168.1.127
+  146  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  147  ansible all -m ping
+  148  ansible all --lists-hosts
+  149  ansible all --list-hosts
+  150  ansible all gather_facts
+  151  ansible all gathered_facts
+  152  ansible all -m gather_facts
+  153  ping 192.168.1.127
+  154  ping 192.168.1.126
+  155  ping 192.168.1.127
+  156  ssh 192.168.1.127
+  157  eval $(ssh-agent)
+  158  ssh-add ~/.ssh/ansible
+  159  ssh 192.168.1.127
+  160  ping 192.168.1.1267
+  161  ping 192.168.1.127
+  162  ssh 192.168.1.127
+  163  ip add
+  164  cat ~/.ssh/ansible
+  165  ls ~/.ssh/ansible.
+  166  ls ~/.ssh
+  167  cat ~/.ssh/ansible.pub
+  168  ssh -T -ai ~/.ssh/id_rsa git@github.com
+  169  sudo ssh -T -ai ~/.ssh/id_rsa git@github.com
+  170  cat ~/.ssh/ansible.pub
+  171  ssh-keygen
+  172  sudo ssh -T -ai ~/.ssh/ansible.pub git@github.com
+  173  sudo ssh -T -ai ~/.ssh/ansible git@github.com
+  174  sudo su
+  175  cat ~/.ssh
+  176  ls ~/.ssh
+  177  rm ansible
+  178  rm ansible.pub
+  179  cd ssh
+  180  cd /ssh
+  181  cd ~/.shh
+  182  cd ~/.ssh
+  183  ls
+  184  ls
+  185  rm ansible.pub
+  186  cat authorized_keys 
+  187  cat agent
+  188  cd agent
+  189  ls
+  190  exit
+  191  ls
+  192  pwd
+  193  cat ansible.cfg
+  194  ssh-keygen
+  195  ssh-keygen
+  196  ls ~/.ssh
+  197  ca
+  198  cst ~/.ssh/ansible
+  199  cat ~/.ssh/ansible
+  200  cat ~/.ssh/ansible.pub
+  201  ssh 192.168.1.127
+  202  ssh-copy-id -i ~/.ssh/ansible 192.168.1.127
+  203  ssh 192.168.1.127
+  204  eval $(ssh-agent)
+  205  ssh-add ~/.ssh/ansible
+  206  ssh 192.168.1.127
+  207  ansible --lists-hosts
+  208  sudo ansible --lists-hosts
+  209  sudo ansible all --lists-hosts
+  210  sudo ansible all --list-hosts
+  211  sudo ansible all gather-facts
+  212  sudo ansible all -m gather-facts
+  213  sudo ansible all -m gather-fact
+  214  ansible all --key-file
+  215  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  216  history
+  217  nano ansible.cfg
+  218  ansible all -m ping
+  219  cat ~/.ssh/ansible.pub
+  220  command -v git
+  221  eval $(ssh-agent)
+  222  ssh-add ~/.ssh/ansible
+  223  nano ~/.bashrc
+  224  ssha
+  225  alias ssha
+  226  nano ~/.bashrc
+  227  alias ssha
+  228  nano ~/.bashrc
+  229  alias ssha
+  230  nano ~/.bashrc
+  231  alias ssha
+  232  exec bash
+  233  alias ssha
+  234  ssha
+  235  git clone git@github.com:elaurence20206/ansible.git
+  236  sudo git clone git@github.com:elaurence20206/ansible.git
+  237  git clone git@github.com:elaurence2026/ansible.git
+  238  ssha
+  239  git clone git@github.com:elaurence2026/ansible.git
+  240  ssh -T git@github.com
+  241  nano ~/.ssh/config
+  242  ssh -T git@github.com
+  243  nano ~/.ssh/config
+  244  ssh -T git@github.com
+  245  ssh -i ~/.ssh/ansible  -T git@github.com
+  246  git clone git@github.com:
+  247  ssha
+  248  ssh-keygen
+  249  ls ~/.ssh
+  250  cat ~/.ssh/ansible/ansible_backup.pub
+  251  cat ~/.ssh/ansible_backup.pub
+  252  cat ~/.ssh/ansible_backup
+  253  nano ~/.bashrc
+  254  ls ~/.ssh/ansible_backup
+  255  ls ~/.ssh/
+  256  cat ansi.cfg
+  257  cat ansible.cfg
+  258  nano ansible.cfg
+  259  ssh 192.168.1.127
+  260  exec bash
+  261  alias ssha
+  262  ssh-copy-id -i ~/.ssh/ansible_backup 192.168.1.127
+  263  ssh 192.168.1.127
+  264  ls ~/.ssh/ansible_backup
+  265  cat ~/.ssh/ansible_backup
+  266  cat ~/.ssh/ansible_backup.pub
+  267  git clone git@github.com:elaurencearc-cmd/ansible_backup.git
+  268  ssh-keygen -t ed25519 -C "elaurence.arc@gmail.com"
+  269  eval "$(ssh-agent -s)"'
+  270  eval "$(ssh-agent -s)"
+  271  open ~/.ssh.config
+  272  nano ~/.ssh.config
+  273  open ~/.ssh.config
+  274  sudo apt install mailcap
+  275  open ~/.ssh.config
+  276  pwd
+  277  ls
+  278  cat ~/.ssh.id
+  279  cat ~/.ssh
+  280  ls ~/.ssh
+  281  cat ~/.ssh/id_ed25519
+  282  cat ~/.ssh/id_ed25519.pub
+  283  cat ~/.ssh/id_ed25519
+  284  cat ~/.ssh/id_ed25519.pub
+  285  cat ~/.ssh/id_ed25519
+  286  cat ~/.ssh
+  287  cat ~/.ssh/
+  288  ls ~/.ssh/
+  289  cat ~/.ssh/id_ed25519.pub
+  290  cat ~/.ssh/
+  291  cat ~/.ssh
+  292  cls ~/.ssh
+  293  s ~/.ssh
+  294  ls ~/.ssh
+  295  cat ~/.ssh/ansible.pub
+  296  eval "$(ssh-agent -s)"
+  297  git clone git@github.com:elaurencearc-cmd/ansible.git
+  298  ping 8.8.8.8
+  299  ping github.com
+  300  eval "$(ssh-agent -s)"
+  301  ssh-add ~/.ssh/ansible
+  302  git clone git@github.com:elaurencearc-cmd/ansible.git
+  303  git clone git@github.com:elaurencearc-cmd/ansible_backup.git
+  304  git clone git@github.com:elaurencearc-cmd/ansible.git
+  305  ansible all -m apt -a update_cache=true 
+  306  apt update
+  307  ansible all -m apt -a update_cache=true --become --ask-become-pass-pass
+  308  ansible all -m apt -a update_cache=true --become --ask-become-pass
+  309  ssh 192.168.1.127
+  310  pd
+  311  pwd
+  312  ls ~\ssh
+  313  ls ~\.ssh
+  314  ls ~/.shh
+  315  ls ~/.ssh
+  316  sudo rm ansible.pub
+  317  rm ansible.pub
+  318  ls ~/.ssh
+  319  cd ~/.ssh
+  320  ls
+  321  rm ansible.pub
+  322  rm ansible_backup.pub
+  323  rm id_ed25519.pub
+  324  ls
+  325  rm ansible
+  326  rm ansible_backup 
+  327  rm config
+  328  ls
+  329  rm id_ed25519 
+  330  ls 
+  331  rm authorized_keys
+  332  ls
+  333  rmdir agent
+  334  rmdir -r agent
+  335  cd agent/
+  336  ls
+  337  rm *.*
+  338  ls
+  339  cd..
+  340  cd ..
+  341  ls
+  342  rm agent
+  343  rm -r agent
+  344  ls
+  345  exit
+  346  ssh-keygen 
+  347  cat ~/ssh
+  348  ls  ~/ssh
+  349  ls  ~/.ssh
+  350  cd ssh
+  351  cd ~/.ssh
+  352  ls
+  353  rm ansansible
+  354  rm ansansible.pub
+  355  exit
+  356  ssh-keygen 
+  357  cd ~/.ssh
+  358  ls
+  359  cat ~/.ssh
+  360  cd ..
+  361  cat ~/.ssh
+  362  cat ~/.ssh/ansible
+  363  cat ~/.ssh/ansible.pub
+  364  ssh 192.168.1.127
+  365  cat ~/.ssh/ansible
+  366  cat ~/.ssh/ansible.pub
+  367  ssh-copy-id -i ~/.ssh/ansible 192.168.1.127
+  368  ssh 192.168.1.127
+  369  eval $(ssh-agent)
+  370  ssh-add ~/.ssh/ansible
+  371  ssh 192.168.1.127
+  372  nano inventory
+  373  nano ansible.cfg
+  374  cat ansible.cfg
+  375  ansible all --key-file ~/.ssh/ansible -i inventory -m ping
+  376  ansible all -m ping
+  377  ls ~/.ssh
+  378  cat ~/.ssh/ansible.pub
+  379  ls ~/.ssh
+  380  eval $(ssh-agent)
+  381  ssh-add ~/.ssh/ansible
+  382  git clone git@github.com:elaurencearc-cmd/ansible_course.git
+  383  command -v git
+  384  nano ~/.bashrc
+  385  exec bash
+  386  nano ~/.bashrc
+  387  exec bash
+  388  alias ssha
+  389  ssha
+  390  git clone git@github.com:elaurencearc-cmd/ansible_course.git
+  391  ls
+  392  cd ansible_course/
+  393  ls
+  394  nano README.md
+  395  git status
+  396  git add README.md
+  397  git status
+  398  git comit -m "update the READ.md file"
+  399  git commit -m "Update the READ.md file"
+  400  git status
+  401  git commit -m
+  402  git status
+  403  git commit -m "Update the README.md file"
+  404  git config --global user.email "elaurence@gmail.com
+  405  git config --global user.email "elaurence@gmail.com"
+  406  git commit -m "Update the README.md file"
+  407  git status
+  408  ls
+  409  git status
+  410  git push origin main
+  411  cd..
+  412  cd ..
+  413  ls
+  414  mv ansible.cfg inventory ansible_course/
+  415  ls
+  416  cd ansible_course/
+  417  ls
+  418  git status
+  419  git add ansible.cfg
+  420  git status
+  421  git add inventory
+  422  git commit -m "Added ansible.cfg and inventory to version control."
+  423  git push origin main
+  424  git config --global --edit
+  425  ansible all -m ping
+  426  ansible all -m apt -a update_cache=true
+  427  apt update
+  428  sudo apt update
+  429  history
+  430  cat /home/laurence/.bash_history
+  431  history > history_to_print.txt
