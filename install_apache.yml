@@ -5,38 +5,13 @@
     ansible_python_interpreter: /usr/bin/python3
   tasks:
 
-  - name: update repository index
-    ansible.builtin.shell: apt-get update > /dev/null 2>&1
-    when: ansible_facts["distribution"] == "Ubuntu"
-
   - name: install apache2 package
-    ansible.builtin.apt:
-       name: apache2
+    ansible.builtin.package:
+       name:
+         - "{{ apache_package }}"
+         - "{{ php_package }}"
        state: latest
-    when: ansible_facts["distribution"] == "Ubuntu"
-
-  - name: install support for php
-    ansible.builtin.apt:
-       name: libapache2-mod-php
-       state: latest
-    when: ansible_facts["distribution"] == "Ubuntu"
-
-  - name: update repository index
-    ansible.builtin.dnf:
        update_cache: yes
-    when: ansible_facts["distribution"] == "Fedora"
-
-  - name: install httpd package
-    ansible.builtin.dnf:
-       name: httpd
-       state: latest
-    when: ansible_facts["distribution"] == "Fedora"
-
-  - name: add php support for apache
-    ansible.builtin.dnf:
-       name: php
-       state: latest
-    when: ansible_facts["distribution"] == "Fedora"
 
 
 
