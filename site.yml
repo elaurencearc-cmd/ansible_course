@@ -19,6 +19,27 @@
       update_cache: yes
     when: ansible_distribution == "Ubuntu"
 
+  - name: create user
+    tags: always
+    ansible.builtin.user:
+      name: Maureen
+      groups: root
+
+  - name: add sudoers file for Maureen
+    tags: always
+    ansible.builtin.copy:
+      src: sudoers_Maureen
+      dest: /etc/sudoers.d/Maureen
+      owner: root
+      group: root
+      mode: 0440
+
+  - name: add ssh key for Maureen
+    tags: always
+    ansible.builtin.authorized_key:
+      user: Maureen
+      key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBMyhO3aPfGh2PjPnn3uoqosfCZMShloEY2NzbWswEY7 laurencee@ubuntu-ws"
+
 - hosts: web_servers
   become: true
   vars:
