@@ -1,0 +1,9 @@
+[defaults]
+remote_tmp = /tmp/.ansible/tmp
+inventory = inventory
+private_key_file = ~/.ssh/ansible
+stdout_callback = default
+deprecation_warnings = False
+pipelining = True
+remote_user = Maureen
+
